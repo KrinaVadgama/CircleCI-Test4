@@ -132,7 +132,7 @@ jobs:
     docker:
      - image: cimg/base:2022.05
     steps:
-      - run: echo $JAVA_HOME
+      - run: abcd
 
   Data_23:
     docker:
